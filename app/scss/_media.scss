@@ -1,0 +1,23 @@
+@import "vars"
+
+@media only screen and (max-width : 480px){
+    .header-content{
+        h1{
+            font-size: 15px;
+        }
+    }
+    .section{
+        grid-template-columns: 1fr;
+    }
+    .item{
+        min-height: 50vh;
+    }
+
+
+    .footer{
+        padding: 20px 0;
+    }
+    .footer-copy{
+        margin-top: 10px;
+    }
+}
